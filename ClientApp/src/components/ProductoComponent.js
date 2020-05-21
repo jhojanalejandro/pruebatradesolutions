@@ -125,7 +125,7 @@ export default class ProductoComponent extends Component {
                     </tbody>
                 </table><form method="POST" enctype="multipart/form-data" >
                     <input type="hidden" name="_token" value="{{csrf_token}}" />
-                    <div class="modal fade" id="productoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal fade" id="ProductoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
